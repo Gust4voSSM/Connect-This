@@ -1,0 +1,63 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Wood_Hardwood_Roof.name"
+  },
+  "Parent": "Wood_Hardwood_Roof",
+  "Set": "Wood_Hardwood_Planks",
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Hardwood",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Roof"
+        ]
+      }
+    ],
+    "OutputQuantity": 2
+  },
+  "Tags": {
+    "Type": [
+      "Wood"
+    ],
+    "Family": [
+      "Hardwood"
+    ]
+  },
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Blocks/Structures/Roofs/Shallow/Slope_Shallow_High.blockymodel",
+    "ConnectedBlockRuleSet": {
+      "Type": "ConnectedBlocks:Roof"
+    }
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -25
+    ]
+  },
+  "Interactions": {
+    "Ability2": {
+      "Interactions": [
+        {
+          "Type": "ConnectedBlocks:Rotate"
+        }
+      ]
+    }
+  },
+  "Icon": "Icons/ItemsGenerated/Wood_Hardwood_Roof_Shallow_Low.png",
+  "Model": "Blocks/Structures/Roofs/Shallow/Slope_Shallow_Low.blockymodel"
+}

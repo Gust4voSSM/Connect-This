@@ -1,0 +1,319 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "name": "OriginSharp",
+      "position": {"x": 0, "y": 0, "z": 0},
+      "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+      "shape": {
+        "type": "none",
+        "offset": {"x": 0, "y": 0, "z": 0},
+        "stretch": {"x": 0, "y": 0, "z": 0},
+        "settings": {
+          "isPiece": false
+        },
+        "textureLayout": {},
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "2",
+          "name": "Low",
+          "position": {"x": 0.02803, "y": 14.33496, "z": 2.50774},
+          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+          "shape": {
+            "type": "none",
+            "offset": {"x": 0, "y": 0, "z": 0},
+            "stretch": {"x": 0, "y": 0, "z": 0},
+            "settings": {
+              "isPiece": false
+            },
+            "textureLayout": {},
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "flat"
+          },
+          "children": [
+            {
+              "id": "3",
+              "name": "StairStep12",
+              "position": {"x": -0.19839, "y": 12.5052, "z": -26.08194},
+              "orientation": {"x": 0.13051, "y": 0.00346, "z": -0.00562, "w": 0.99143},
+              "shape": {
+                "type": "box",
+                "offset": {"x": 0, "y": -2, "z": 13.6},
+                "stretch": {"x": -1.03232, "y": 1.25095, "z": 1.32},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 32, "y": 4, "z": 7}
+                },
+                "textureLayout": {
+                  "back": {
+                    "offset": {"x": 32, "y": 4},
+                    "mirror": {"x": true, "y": true},
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {"x": 42, "y": 18},
+                    "mirror": {"x": true, "y": true},
+                    "angle": 90
+                  },
+                  "front": {
+                    "offset": {"x": 0, "y": 18},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {"x": 42, "y": 11},
+                    "mirror": {"x": false, "y": true},
+                    "angle": 90
+                  },
+                  "top": {
+                    "offset": {"x": 0, "y": 11},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 0
+                  },
+                  "bottom": {
+                    "offset": {"x": 0, "y": 18},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 180
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "standard"
+              }
+            },
+            {
+              "id": "4",
+              "name": "StairStep",
+              "position": {"x": -0.15976, "y": 6.97623, "z": -11.18601},
+              "orientation": {"x": 0.13045, "y": 0.01643, "z": -0.00569, "w": 0.9913},
+              "shape": {
+                "type": "box",
+                "offset": {"x": 0.00979, "y": -3.35226, "z": 9.36235},
+                "stretch": {"x": -1.04931, "y": 1.32785, "z": 1.26043},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 32, "y": 4, "z": 14}
+                },
+                "textureLayout": {
+                  "back": {
+                    "offset": {"x": 32, "y": 0},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {"x": 42, "y": 18},
+                    "mirror": {"x": true, "y": true},
+                    "angle": 90
+                  },
+                  "front": {
+                    "offset": {"x": 10, "y": 18},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {"x": 42, "y": 4},
+                    "mirror": {"x": false, "y": true},
+                    "angle": 90
+                  },
+                  "top": {
+                    "offset": {"x": 10, "y": 4},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 0
+                  },
+                  "bottom": {
+                    "offset": {"x": 32, "y": 18},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 180
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "standard"
+              }
+            },
+            {
+              "id": "5",
+              "name": "StairStep",
+              "position": {"x": 0, "y": 0, "z": 0},
+              "orientation": {"x": 0.13051, "y": -0.00197, "z": 0.00623, "w": 0.99142},
+              "shape": {
+                "type": "box",
+                "offset": {"x": -0.0063, "y": -2.50709, "z": 10.22474},
+                "stretch": {"x": -1.02782, "y": 1.08, "z": 1.2},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 32, "y": 4, "z": 14}
+                },
+                "textureLayout": {
+                  "back": {
+                    "offset": {"x": 32, "y": 0},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {"x": 42, "y": 18},
+                    "mirror": {"x": true, "y": true},
+                    "angle": 90
+                  },
+                  "front": {
+                    "offset": {"x": 32, "y": 18},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {"x": 42, "y": 4},
+                    "mirror": {"x": false, "y": true},
+                    "angle": 90
+                  },
+                  "top": {
+                    "offset": {"x": 32, "y": 4},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "bottom": {
+                    "offset": {"x": 0, "y": 4},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 0
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "standard"
+              }
+            },
+            {
+              "id": "6",
+              "name": "Pank",
+              "position": {"x": -0.02803, "y": 3.16857, "z": -19.20323},
+              "orientation": {"x": 0.0349, "y": 0, "z": 0, "w": 0.99939},
+              "shape": {
+                "type": "none",
+                "offset": {"x": 0, "y": 0, "z": 0},
+                "stretch": {"x": 0, "y": 0, "z": 0},
+                "settings": {
+                  "isPiece": false
+                },
+                "textureLayout": {},
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "flat"
+              },
+              "children": [
+                {
+                  "id": "7",
+                  "name": "wood",
+                  "position": {"x": 0, "y": -6.12293, "z": 14.78207},
+                  "orientation": {"x": 0, "y": -0.83147, "z": 0.55557, "w": 0},
+                  "shape": {
+                    "type": "box",
+                    "offset": {"x": 0, "y": -1.9, "z": -1},
+                    "stretch": {"x": 1.01, "y": 1.12, "z": 1},
+                    "settings": {
+                      "isPiece": false,
+                      "size": {"x": 32, "y": 32, "z": 8}
+                    },
+                    "textureLayout": {
+                      "right": {
+                        "offset": {"x": 64, "y": 0},
+                        "mirror": {"x": true, "y": false},
+                        "angle": 0
+                      },
+                      "front": {
+                        "offset": {"x": 32, "y": 32},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "left": {
+                        "offset": {"x": 56, "y": 0},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {"x": 64, "y": 0},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 90
+                      },
+                      "bottom": {
+                        "offset": {"x": 64, "y": 0},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 90
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": true,
+                    "doubleSided": false,
+                    "shadingMode": "standard"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "8",
+              "name": "bone",
+              "position": {"x": -0.014, "y": -14.33496, "z": 13.49224},
+              "orientation": {"x": 0, "y": -0.00175, "z": 0.00175, "w": 1},
+              "shape": {
+                "type": "box",
+                "offset": {"x": 0, "y": 0, "z": 0},
+                "stretch": {"x": 1.02, "y": 1.1, "z": 1.1},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 32, "y": 8, "z": 8}
+                },
+                "textureLayout": {
+                  "back": {
+                    "offset": {"x": 64, "y": 0},
+                    "mirror": {"x": true, "y": true},
+                    "angle": 270
+                  },
+                  "right": {
+                    "offset": {"x": 56, "y": 8},
+                    "mirror": {"x": true, "y": true},
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {"x": 56, "y": 32},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 270
+                  },
+                  "left": {
+                    "offset": {"x": 48, "y": 8},
+                    "mirror": {"x": false, "y": true},
+                    "angle": 0
+                  },
+                  "top": {
+                    "offset": {"x": 64, "y": 32},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 90
+                  },
+                  "bottom": {
+                    "offset": {"x": 64, "y": 32},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 90
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "standard"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "format": "prop",
+  "lod": "auto"
+}

@@ -1,0 +1,18 @@
+{
+    "Group": "Gust4vo",
+    "Name": "ConnectThisPlugin",
+    "Version": "0.1.0",
+    "Description": "Description of your plugin",
+    "Authors": [
+        {
+            "Name": "Gust4vo"
+        }
+    ],
+    "Website": "https://your-plugin-website.com",
+    "DisabledByDefault": false,
+    "IncludesAssetPack": true,
+    "Dependencies": {},
+    "OptionalDependencies": {},
+    "ServerVersion": "*",
+    "Main": "gust4vo.connectedblocks.Main"
+}
